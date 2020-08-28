@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.glg.easyloading.lib">
+
+    <application>
+        <activity android:name=".EasyLoadingDialog" android:launchMode="singleTask" android:theme="@style/ActivityDialogStyle"/>
+    </application>
+</manifest>

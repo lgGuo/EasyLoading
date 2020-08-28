@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LodingDialog对话框 -->
+    <style name="MyLoadDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <style name="ActivityDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowBackground">@color/transparent</item>
+
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--设置窗口内容不覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+        <!--点击空白地方关闭-->
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--设置动画，在这里使用让它继承系统的Animation.Dialog-->
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+        <item name="android:outAnimation">@null</item>
+    </style>
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+</resources>

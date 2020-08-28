@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#286EF0</color>
+    <color name="colorPrimary">#286EF0</color>
+    <color name="colorPrimaryDark">#286EF0</color>
+    <color name="transparent">#00000000</color>
+    <color name="tips">#bbbbbb</color>
+    <color name="refresh_tips">#666666</color>
+    <color name="page_background">#F7F7F7</color>
+    <color name="color_dim">#fff8f8f8</color>
+</resources>
